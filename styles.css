@@ -1,0 +1,185 @@
+body {
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-position: center;
+    background-image: url("kbbackground.png");
+}
+nav {
+    padding: 4vw 10% 0px;
+    margin: 0px;
+}
+ul#menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul#menu li {
+    float:left;
+}
+ul#menu li#ra {
+    float:right;
+}
+ul#menu li a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1vw 3vw;
+    margin: 0px;
+}
+ul#socials {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    right: 10%;
+}
+ul#socials li {
+    float: left;
+}
+ul#socials li a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    background-color: rgba(255, 0, 0, 0);
+    width: 0.5vw;
+    height: 0.5vw;
+    margin: 0px 0px 0px 1vw;
+}
+ul#menu li a:hover {
+    background-color: rgb(255, 255, 255);
+    color:#000000;
+}
+ul#menu li a#current {
+    color:#fc98ff;
+}
+div#content {
+    background-color: rgba(60, 226, 255, 0);
+    margin: 2vw 10%;
+    float: left;
+}
+div#content1 {
+    background-color: rgba(60, 226, 255, 0);
+    margin: 2vw 10%;
+    float: left;
+}
+div#content2 {
+    background-color: rgba(60, 226, 255, 0);
+    margin: 2vw 10%;
+    float: left;
+}
+div#text {
+    padding: 20px 56px;
+    background-color: rgba(255, 60, 60, 0);
+    margin: 0px;
+}
+h1 {
+    font-size: 4vw;
+    color: white;
+}
+h2 {
+    font-size: 20px;
+    color: white;
+}
+p {
+    color: white;
+    font-size: 1vw;
+    font-family: 'Verdana', sans-serif;
+}
+a#coolbutton {
+    text-decoration: none;
+    display: inline;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 0.66vw 3vw;
+    margin: 0px;
+    border-style: hidden;
+    border-radius: 2vw;
+    font-size: 1vw;
+}
+a#coolbutton:hover {
+    background-color: #fdbfff;
+}
+div#gallery {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+div#gallery img {
+    object-fit: contain;
+    width: 100%;
+    z-index: -2;
+    position: relative;
+    border-radius: 8px;
+}
+div#gallery1 {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+div#gallery1 img {
+    object-fit: contain;
+    width: 100%;
+    z-index: -2;
+    position: relative;
+    border-radius: 8px;
+}
+div#gallery2 {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+div#gallery2 img {
+    object-fit: contain;
+    width: 100%;
+    z-index: -2;
+    position: relative;
+    border-radius: 8px;
+}
+div#gallery3 {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+div#gallery3 img {
+    object-fit: contain;
+    width: 100%;
+    z-index: -2;
+    position: relative;
+    border-radius: 8px;
+}
+div#gallery4 {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+div#gallery4 img {
+    object-fit: contain;
+    width: 100%;
+    z-index: -2;
+    position: relative;
+    border-radius: 8px;
+}
+footer {
+    margin: 0px;
+    padding: 4vw 10% 0px;
+}
+footer img{
+    right: 0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+nav#bottomnav {
+    padding: 4vw 10% 0px;
+    margin: 0px;
+    bottom: 10%;
+    position: fixed;
+}
